@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/nodejs-with-db
-  tag: a04e4fbf9d6ac11d5a2d2d8f06512184b8bd4318
+  tag: 4f6b5f9612606128e562da31afb5ab87fadad8a3
   pullPolicy: Always
 
 service:
