@@ -40,4 +40,4 @@ spec:
     username: postgres
   writeConnectionSecretToRef:
     name: nodejs-with-db-postgresql-secret
-    namespace: 
+    namespace: nodejs-with-db
