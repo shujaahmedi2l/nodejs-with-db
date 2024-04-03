@@ -39,5 +39,5 @@ spec:
       - sg-0c48143c0e3bcc07a
     username: postgres
   writeConnectionSecretToRef:
-    name: -postgresql-secret
+    name: nodejs-with-db-postgresql-secret
     namespace: 
