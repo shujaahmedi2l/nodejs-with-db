@@ -6,7 +6,7 @@ metadata:
     uptest.upbound.io/timeout: '3600'
   labels:
     testing.upbound.io/example-name: example-dbinstance-ira
-  name: hello-flask-2
+  name: "nodejs-with-db"
 spec:
   forProvider:
     allocatedStorage: 20
