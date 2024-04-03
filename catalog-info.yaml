@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-with-db"
+  description: "nothing special"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/nodejs-with-db"
+    argocd/app-name: "nodejs-with-db"
+  links:
+    - url: https://shuja-nodejs-with-db.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
